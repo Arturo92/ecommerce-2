@@ -1,0 +1,28 @@
+html, body, .wrapper {
+	height:100%;
+	width:100%;
+	margin:0px;
+	padding:0px;
+}
+
+.wrapper {
+	background-image:url("bg.jpg");
+	background-size:cover;
+}
+
+.main-content {
+	width:100%;
+	text-align:center;
+}
+
+#gucci-header {
+	float:right;
+	font-weight:200;
+}
+
+#gucci-img {
+	height:600px;
+	width:80%;
+	margin-left:5%;
+	background-size:cover;
+}

@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Prata&display=swap');
+
+
+.toolbar {
+	height:80px;
+	width:100%;
+	background-color:black;
+}
+
+.toolbar-holder {
+	text-align:center;
+	padding:12px;
+}
+
+#searchbar {
+	font-family: 'Prata', serif;
+	padding-left:10px;
+	font-size:23px;
+	font-weight:200;
+}
+
+.menu {
+	padding:12px;
+	margin-top:20%;
+	text-align:center;
+}
+
+#logo {
+	font-size:82px;
+	font-family: 'Prata', serif;
+	text-align:center;
+}
+
+#featureddesigners {
+	text-align:center;
+	font-family: 'Prata', serif;
+}
+#designerlink, #designerlink2, #designerlink3 {
+	padding:12px;
+	display:none;
+}
+#designerlink a, #designerlink2 a, #designerlink3 a {
+	text-decoration:none;
+	color:black;
+	padding:12px;
+	display:inline-block;
+}
+
+#designerlink a:hover, designerlink2 a:hover, designerlink3 a:hover{
+	border-bottom:black solid 1px;
+}
+.menu-link-divs {
+}
+
+.menu-links {
+	text-decoration:none;
+	color:white;
+	padding:12px;
+	font-family: 'Prata', serif;
+}
+
+.menu-links:hover {
+	border-bottom:white solid 1px;
+}
+
+.logo-holder {
+	position:absolute;
+	margin-left:26%;
+}
+
+#login {
+	transform: rotate(-90deg);
+	/*transform-origin: left top 0;*/
+	float:right;
+	position:absolute;
+	color:black;
+	text-decoration:none;
+	margin-left:96%;
+	font-family: 'Prata', serif;
+}
+
+.logouts {
+	transform: rotate(-90deg);
+	/*transform-origin: left top 0;*/
+	float:right;
+	position:absolute;
+	color:black;
+	text-decoration:none;
+	margin-left:96%;
+	font-family: 'Prata', serif;
+}
+
+#bag {
+	transform: rotate(-90deg);
+	/*transform-origin: left bottom 0;*/
+	float:right;
+	position:absolute;
+	margin-top:5%;
+	color:black;
+	margin-left:96.8%;
+	font-family: 'Prata', serif;
+}
